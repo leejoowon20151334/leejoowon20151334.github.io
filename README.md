@@ -24,7 +24,7 @@ bundle exec jekyll serve
  - localhost:4000에 페이지가 생성된 것을 확인하였다.
 
 ----------
-# 2. 테마 변경
+# 2. 테마 변경 (필수과제)
 -----------
  - 아래 주소의 테마를 내려받아 기존 폴더에 복사하였다.
  - http://jekyllthemes.org/themes/dash/
@@ -45,7 +45,24 @@ email: jwlee51@kookmin.ac.kr
 ```
 
 ------------
-# 4. post 추가
+# 4. post 추가 (필수과제)
 ------------
  - ./_posts/ 경로에 post를 추가하였다.
+ - 강의중 학습한 Git & Github 관련 내용을 post 하였다.
 
+-----------
+# 5. github.io 적용
+-----------
+ - 로컬에서는 정상적으로 실행되나, github.io build시 에러가 발생하였다.
+ - theme를 찾을수 없다는 에러
+ - 해결을 위해 _config.yml의 theme을 remote theme으로 변경하였다.
+ - remote theme 적용을 위해 Gemfile 및 _config.yml에 아래 plugin을 추가하였다.
+```
+jekyll-include-cache
+```
+
+----------
+# 6. favicon 변경 (선택과제)
+----------
+ - ./asset 경로에 favicon.ico 파일을 추가하였다.
+ - ./_include/head.html 에 favicon.ico 관련 내용을 추가하였다.
