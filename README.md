@@ -1,7 +1,8 @@
 과제 - Remote Repository의 README.md 자신의 프로젝트를 Build한 과정을 기술
 ==========
 
-1. jekyll 설치
+----------
+# 1. jekyll 설치
 ----------
  - 기존에 ruby가 존재하는 관계로 아래 명령어를 실행하였다.
 ```
@@ -22,7 +23,8 @@ bundle exec jekyll serve
 ```
  - localhost:4000에 페이지가 생성된 것을 확인하였다.
 
-2. 테마 변경
+----------
+# 2. 테마 변경
 -----------
  - 아래 주소의 테마를 내려받아 기존 폴더에 복사하였다.
  - http://jekyllthemes.org/themes/dash/
@@ -33,7 +35,8 @@ An error occurred while installing http_parser.rb (0.8.0), and Bundler cannot co
  - 아래 블로그를 참조하여 에러를 해결하였다.
  - https://withhsunny.tistory.com/87
 
-3. _config 수정
+----------
+# 3. _config 수정
 ----------
  - title, email 등을 아래와 같이 변경하였다.
 ```
@@ -41,7 +44,8 @@ title: jwlee51
 email: jwlee51@kookmin.ac.kr
 ```
 
-4. post 추가
+------------
+# 4. post 추가
 ------------
  - ./_posts/ 경로에 post를 추가하였다.
 
