@@ -2,15 +2,15 @@ title: jwlee51
 author: leejoowon20151334
 email: jwlee51@kookmin.ac.kr
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  20151334 이주원<br>
+  소프트웨어융합대학<br>
+  2022 유레카프로젝트 과제
 show_excerpts: false # set to true to show excerpts on the homepage
 
 url: "https://leejoowon20151334.github.io/"
 baseurl: ""
 
-paginate: 1
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
@@ -50,7 +50,8 @@ dash:
   #avatar_path: /assets/avatar.png
 
 # Build settings
-theme: jekyll-dash
+#theme: jekyll-dash
+remote_theme: bitbrain/jekyll-dash@v2
 
 plugins:
  - jekyll-feed
