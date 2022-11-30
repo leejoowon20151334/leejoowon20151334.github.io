@@ -84,3 +84,16 @@ https://kim-eun-ji.github.io/etc/2021-05-18-ga/
 ```
 ./_includes/head.html
 ```
+ - 위 방법으로 진행한 결과 아래와 같은 에러가 발생하였다.
+```
+Ensure it exists in one of those directories and is not a symlink as those are not allowed in safe mode.
+```
+ - 위 에러를 수정하기 위해 아래 블로그의 글을 참조하였다.
+```
+https://infiduk.github.io/2019/11/05/google-analytics.html
+```
+ - ./_includes/analytics.html 파일을 추가한뒤 해당 파일을 ./_layout/default.html에서 include 하였다.
+ - github에 올린뒤 정상적으로 build에 성공하였다.
+ - 해당 페이지에서 gtag 입력시 정상적으로 관련 내용이 출력되는것을 확인하였다.
+ - google analytics 페이지에서 방문자수가 집계되는것을 확인하였다.
+
