@@ -58,7 +58,10 @@ comment:
 #theme: jekyll-dash
 remote_theme: "bitbrain/jekyll-dash"
 
-google_analytics: G-9Y0936DTP2
+analytics:
+ provider: "google"
+ google: 
+  tracking_id: "G-9Y0936DTP2"
 
 plugins:
  - jekyll-feed
