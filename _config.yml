@@ -49,6 +49,11 @@ dash:
   #avatar_source: local
   #avatar_path: /assets/avatar.png
 
+comment:
+ provider: "disqus"
+ disqus:
+  shortname: "short-corini"
+
 # Build settings
 #theme: jekyll-dash
 remote_theme: "bitbrain/jekyll-dash"

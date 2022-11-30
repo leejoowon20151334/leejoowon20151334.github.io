@@ -66,3 +66,11 @@ jekyll-include-cache
 ----------
  - ./asset 경로에 favicon.ico 파일을 추가하였다.
  - ./_include/head.html 에 favicon.ico 관련 내용을 추가하였다.
+
+---------
+# 7. 댓글기능 추가 (선택과제)
+---------
+ - disqus를 사용하여 댓글 기능을 추가하였다.
+ - ./layout/post.html 내부에 theme에서 자동적으로 추가되는 disqus 관련 내용이 존재하였으나 작동하지 않아 강의자료에 포함된 내용으로 변경하였다.
+
+---------
