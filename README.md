@@ -74,3 +74,13 @@ jekyll-include-cache
  - ./layout/post.html 내부에 theme에서 자동적으로 추가되는 disqus 관련 내용이 존재하였으나 작동하지 않아 강의자료에 포함된 내용으로 변경하였다.
 
 ---------
+# 8. Google Analytics 추가 (선택과제)
+---------
+ - 아래 글을 참고하여 Google Analytics를 추가하였다.
+```
+https://kim-eun-ji.github.io/etc/2021-05-18-ga/
+```
+ - theme에서 head 태그 관련 부분을 자동으로 include 하는것을 확인하여 아래 파일에 Google Analytics 관련 소스를 추가하였다.
+```
+./_includes/head.html
+```

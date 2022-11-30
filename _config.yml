@@ -58,6 +58,8 @@ comment:
 #theme: jekyll-dash
 remote_theme: "bitbrain/jekyll-dash"
 
+google_analytics: G-9Y0936DTP2
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
